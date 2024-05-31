@@ -109,6 +109,12 @@ body{
     /* color: white; */
 }
  /* small screen */
+ @media (max-width: 350px) {
+    .header .links ul {
+        font-size: 8px !important;
+
+    }
+ }
  @media (max-width: 767px) {
     .header{
         display: flex;
@@ -419,8 +425,9 @@ padding-left: 180px ; */
         row-gap: 40px;
     }
     .portfolio .card .info{
-        text-align: center;
+        text-align: start !important;
         padding: 39px;
+        
     }
 }
 .about {
