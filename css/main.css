@@ -104,18 +104,11 @@ body{
 
 
 .header .links ul li a:hover{
-    background-color: #022e43e7;
-    color: white;
+    color: #156a91e7;
+    border: #156a91e7 solid 1px;
+    /* color: white; */
 }
  /* small screen */
- @media (max-width: 400px) {
-
-    .header .links ul {
-        font-size: 10px !important;
-
-    }
- }
-
  @media (max-width: 767px) {
     .header{
         display: flex;
@@ -135,7 +128,7 @@ body{
     margin-left: 25px;
 }
     .header .links ul {
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
 
     }
@@ -268,8 +261,16 @@ body{
     background-color: var(--sectionbackground);  
 } */
 .imag-vision{
-    width: 35%;
-    height: 30%;
+    width: 45%;
+    height: 40%;
+}
+@media (max-width: 767px) {
+    
+    .imag-vision{
+        width: 45%;
+        height: 50%;
+
+    }
 }
 
 /* brief section */
@@ -574,6 +575,53 @@ padding-left: 180px ; */
         width: 100%;
         height: 100%;
     }
+}
+
+/* to order images and paragraph in invision section */
+@media (max-width: 767px) {
+    .forOrder-1 {
+        order:1 ;
+    }
+    .forOrder-2 {
+        order:2 ;
+    }
+    .forOrder-3 {
+        order:3 ;
+    }
+    .forOrder-4 {
+        order:4 ;
+    }
+    .forOrder-5 {
+        order:6 ;
+    }
+    .forOrder-6 {
+        order:5 ;
+    }
+    .forOrder-7 {
+        order:8 ;
+    }
+    .forOrder-8 {
+        order:7 ;
+    }
+    .forOrder-9 {
+        order:9 ;
+    }
+    .forOrder-10 {
+        order:10 ;
+    }
+    .forOrder-11 {
+        order:11 ;
+    }
+    .forOrder-12 {
+        order:12 ;
+    }
+    .forOrder-13 {
+        order:14 ;
+    }
+    .forOrder-14 {
+        order:13 ;
+    }
+    
 }
 
 /* security section */
