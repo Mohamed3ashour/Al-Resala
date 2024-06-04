@@ -86,7 +86,7 @@ body{
 }
 .sticky {
     width: 100%;
-    background-color: rgba(245, 245, 245, 0.918);
+    background-color: rgb(245, 245, 245);
     transition-duration:3s ;
 
 }
@@ -109,12 +109,8 @@ body{
     /* color: white; */
 }
  /* small screen */
- @media (max-width: 350px) {
-    .header .links ul {
-        font-size: 8px !important;
-
-    }
- }
+ 
+ 
  @media (max-width: 767px) {
     .header{
         display: flex;
@@ -134,7 +130,7 @@ body{
     margin-left: 25px;
 }
     .header .links ul {
-        font-size: 10px;
+        font-size: 8px;
         text-align: center;
 
     }
@@ -269,14 +265,6 @@ body{
 .imag-vision{
     width: 45%;
     height: 40%;
-}
-@media (max-width: 767px) {
-    
-    .imag-vision{
-        width: 45%;
-        height: 50%;
-
-    }
 }
 
 /* brief section */
